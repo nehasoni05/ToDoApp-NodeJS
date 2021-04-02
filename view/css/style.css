@@ -1,0 +1,79 @@
+html,
+body {
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#left {
+    width: 30%;
+    display: inline-block;
+    min-height: 99vh;
+    height: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 2px;
+     box-shadow: 5px 0px 10px gray;
+    -webkit-box-shadow: 2px 0px 10px #dfdfdf;
+    -moz-box-shadow: 2px 0px 10px #dfdfdf;
+    -o-box-shadow: 2px 0px 10px #dfdfdf;
+    -ms-box-shadow: 2px 0px 10px #dfdfdf;
+}
+
+#left>h1,
+#left>p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 0px 25px;
+}
+
+#task {
+    position: fixed;
+    display: inline-block;
+    width: 67%;
+    height: 100px;
+    outline: none;
+    border: none;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+.line {
+    max-width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(143, 137, 137);
+}
+.left1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 15px 25px;
+    display: block;
+    cursor: pointer;
+    font-size:22px;
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.line > input[type="checkbox"] {
+    /* cursor: pointer; */
+    margin-top: 20px; 
+    float: right;
+    margin-right: 15px; 
+    border-left-width: 2px;
+    border-right-width: 2px;
+}
+.line > input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
+    color: green;
+}
+.right2 {
+    margin-right: 15px; 
+    cursor: pointer;
+    margin-top: 9px; 
+    float: right;
+    font-size: 25px;
+}
+
+
+
+
